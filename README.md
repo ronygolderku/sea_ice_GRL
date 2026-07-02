@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Antarctic Sea Ice and Chlorophyll-*a* Analysis
+# Antarctic Sea-ice Extent Anomalies Impact Interannual Variability of Phytoplankton Chlorophyll-*a* in Southern Ocean Frontal Zones
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -93,32 +92,6 @@ sea_ice_code/
   - SB-AntCoastline (Southern Boundary to Antarctic coastline)
 - **Anomaly calculation**: Deviation from monthly climatological mean
 
-### Statistical Methods
-- **Correlation analysis**: Spearman rank correlation (ρₛ) and Pearson correlation (r)
-- **Regression**: Ordinary least squares with 95% confidence intervals
-- **Regime comparison**: Kruskal-Wallis H-test (non-parametric)
-- **Significance level**: α = 0.05
-
-## Key Results
-
-### Sea Ice Trends (1998-2024)
-- **Annual decline**: -35,869 km² yr⁻¹ (Sen's slope, p < 0.01)
-- **February**: -19,088 km² yr⁻¹ (p = 0.020)
-- **September**: -28,858 km² yr⁻¹ (p = 0.023)
-- **Regime shift**: Transition from high/normal ice (1998-2015) to low ice (2016-2024)
-
-### Sea Ice-Chlorophyll Relationships
-- **Strongest correlation**: SB-AntCoastline (ρₛ = 0.54, p < 0.01)
-- **Moderate correlation**: SACCF-SB (ρₛ = 0.48, p < 0.05)
-- **Weak correlation**: PF-SACCF (ρₛ = 0.31, p = 0.12)
-- **Pattern**: Relationship strength decreases with distance from Antarctic margin
-
-### Sea Ice Regime Analysis
-- **High Ice Regime**: Higher chlorophyll-*a* across all zones
-- **Low Ice Regime**: Lower chlorophyll-*a* across all zones
-- **Gradient**: 7-9% increase in Chl-*a* from Low to High Ice regimes
-- **Statistical note**: Differences not statistically significant (p > 0.05) due to high variability and small sample sizes
-
 ## Installation and Requirements
 
 ### Python Environment
@@ -166,13 +139,6 @@ pip install -r requirements.txt
    - Figure generation
    - Results interpretation
 
-### Data Paths
-⚠️ **Important**: Update file paths in the notebooks to match your local data directory structure:
-- Sea ice data: `/A04/so_data/DATA/sea_ice/`
-- Chlorophyll data: `/A04/so_data/Revised_data/`
-- Front data: `/A04/so_data/front/`
-- Output figures: `/A04/so_data/ubuntu/Chapter_2/Figures_GRL/`
-
 ## Output Files
 
 All figures are saved as high-resolution PNG files (300 DPI) suitable for publication:
@@ -189,8 +155,7 @@ All figures are saved as high-resolution PNG files (300 DPI) suitable for public
 If you use this code or data, please cite:
 
 ```
-[Author names]. (2024). Impact of Antarctic sea ice variability on chlorophyll-a 
-concentration across Southern Ocean frontal zones. Geophysical Research Letters. 
+Golder, MR & Antoine, D. (2026). Antarctic Sea-ice Extent Anomalies Impact Interannual Variability of Phytoplankton Chlorophyll-a in Southern Ocean Frontal Zones. Geophysical Research Letters. 
 [DOI to be added upon publication]
 ```
 
@@ -221,16 +186,8 @@ This repository is primarily for manuscript reproducibility. For questions or su
 - **Computing resources**: [Your institution/computing facility]
 - **Funding**: [Grant information if applicable]
 
-## Version History
-
-- **v1.0** (2024-07-02): Initial release with all main and supplementary figures
-  - Complete analysis for GRL manuscript
-  - Full documentation and markdown cells
-  - Publication-ready figures
-
 ---
 
 **Last updated**: July 2, 2026
 
 For questions about this analysis, please contact the corresponding author or open an issue on GitHub.
-=======
