@@ -170,10 +170,6 @@ Golder, MR & Antoine, D. (2026). Antarctic Sea-ice Extent Anomalies Impact Inter
 - **Copernicus Marine Service** (2024). Global Ocean Colour (GlobColour). https://doi.org/10.48670/moi-00280
 - **Park et al.** (2019). Antarctic Circumpolar Current fronts. https://doi.org/10.17882/59800
 
-## License
-
-This code is released under the MIT License. See `LICENSE` file for details.
-
 ## Contributing
 
 This repository is primarily for manuscript reproducibility. For questions or suggestions:
@@ -183,8 +179,6 @@ This repository is primarily for manuscript reproducibility. For questions or su
 ## Acknowledgments
 
 - **Data providers**: NSIDC, Copernicus Marine Service, NASA Ocean Color
-- **Computing resources**: [Your institution/computing facility]
-- **Funding**: [Grant information if applicable]
 
 ---
 
