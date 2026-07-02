@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Antarctic Sea Ice and Chlorophyll-*a* Analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -232,3 +233,8 @@ This repository is primarily for manuscript reproducibility. For questions or su
 **Last updated**: July 2, 2026
 
 For questions about this analysis, please contact the corresponding author or open an issue on GitHub.
+=======
+# Antarctic Sea-ice Extent Anomalies Impact Interannual Variability of Phytoplankton Chlorophyll-a in Southern Ocean Frontal Zones
+
+This repository contains the Python code used to generate the figures for the manuscript titled **"Antarctic Sea-ice Extent Anomalies Impact Interannual Variability of Phytoplankton Chlorophyll-a in Southern Ocean Frontal Zones"**.
+>>>>>>> 20432774eeb11a10c9cddcab79e0f150e7c75326
